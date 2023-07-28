@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JtsbgaRCB30Hc/OEbTSPpLuGaUCDGoU1uAc3sgwxYPsziN38RWJNAeDOJbMpZC+nn2QXysA2r3krOQxV+xvrTw==",
+  "success": true,
+  "projectFilePath": "/Users/tahakazan/Works/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/tahakazan/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
