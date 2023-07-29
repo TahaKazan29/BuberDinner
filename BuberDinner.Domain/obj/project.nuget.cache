@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JtsbgaRCB30Hc/OEbTSPpLuGaUCDGoU1uAc3sgwxYPsziN38RWJNAeDOJbMpZC+nn2QXysA2r3krOQxV+xvrTw==",
+  "dgSpecHash": "qWHtl2a4cd47gItFe2gcXumEXFWGCPN2Ek0Q3nb13KJCJEuj5cku7wR+vow3OXBOn3+YW0fr6EL6zF/JB7bMJw==",
   "success": true,
   "projectFilePath": "/Users/tahakazan/Works/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/tahakazan/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+    "/Users/tahakazan/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
+    "/Users/tahakazan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/tahakazan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/tahakazan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

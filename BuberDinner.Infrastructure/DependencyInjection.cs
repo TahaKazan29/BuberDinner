@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Options;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using BuberDinner.Infrastructure.Persistence.Interceptors;
 
 namespace BuberDinner.Infrastructure;
 
@@ -27,6 +28,7 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistence(this IServiceCollection services)
     {
         services.AddDbContext<BuberDinnerDbContext>(options => options.UseSqlServer("Server=localhost;Database=BuberDinner;User Id=SA;Password=tahakzn29!;TrustServerCertificate=true"));
+        services.AddScoped<PublishDomainEventsInterceptor>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IMenuRepository, MenuRepository>();
         return services;
