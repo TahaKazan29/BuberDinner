@@ -19,6 +19,8 @@ It is a Buber Dinner Backend project developed with DDD , Clean Architecture and
 * Mapster
 * JWT Authentication
 * Repository Design Pattern
+* EF Core
+* Fluent API
 * Extensions
   * Claim
     * Claim Principal
