@@ -26,7 +26,7 @@ public static class DependencyInjection
 
     public static IServiceCollection AddPersistence(this IServiceCollection services)
     {
-        services.AddDbContext<BuberDinnerDbContext>(options => options.UseSqlServer());
+        services.AddDbContext<BuberDinnerDbContext>(options => options.UseSqlServer("Server=localhost;Database=BuberDinner;User Id=SA;Password=tahakzn29!;TrustServerCertificate=true"));
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IMenuRepository, MenuRepository>();
         return services;

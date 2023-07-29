@@ -33,7 +33,5 @@ public class MenusController : ApiController
            menu => Ok(_mapper.Map<MenuResponse>(menu)),
            errors => Problem(errors)
        );
-
-        return Ok(request);
     }
 }

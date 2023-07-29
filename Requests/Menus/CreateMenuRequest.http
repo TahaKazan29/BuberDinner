@@ -1,6 +1,6 @@
 @host=http://localhost:5136
-@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NzZlMjk1My00ZjAzLTRlNmYtOWJmMy1mOTExNGM5ZGI1ZWYiLCJnaXZlbl9uYW1lIjoiQW5pY2hhaSIsImZhbWlseV9uYW1lIjoiTWFudGluYmFuZCIsImp0aSI6IjY1NTdmMjQ2LWIyZGQtNDZmYy05ODViLWMwZTAzMmQxMDM4ZCIsImV4cCI6MTY5MDQwMjI2MCwiaXNzIjoiQnViZXJEaW5uZXIiLCJhdWQiOiJCdWJlckRpbm5lciJ9.uziUeh96eB-Wf7jVzjI2pd2Ov-IppXxOeYp4dYtzdtU
-@hostId=asfgd
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YjM0MzllMC00YTE5LTRmOWQtYTkzMi0wYWUxMmVlN2ZmZDUiLCJnaXZlbl9uYW1lIjoiQW5pY2hhaSIsImZhbWlseV9uYW1lIjoiTWFudGluYmFuZCIsImp0aSI6ImY3OWJmZWQ2LWJhYWMtNGFkNC04NzYyLTg2OWZhODliZGZhMiIsImV4cCI6MTY5MDYzMTc4OCwiaXNzIjoiQnViZXJEaW5uZXIiLCJhdWQiOiJCdWJlckRpbm5lciJ9.Jebep-DxO1smD_GF2ja7qMGy3BsPQ_U6qxcT2P_FxNA
+@hostId=6B29FC40-CA47-1067-B31D-00DD010662DA
 POST {{host}}/hosts/{{hostId}}/menus
 Content-Type: application/json
 Authorization: Bearer {{token}}
@@ -8,7 +8,6 @@ Authorization: Bearer {{token}}
 {
     "name": "Yummy Menu",
     "description": "A menu with yummy food",
-    "averageRating": 4.5,
     "sections": [
         {
             "name": "Appetizers",
@@ -20,8 +19,5 @@ Authorization: Bearer {{token}}
                 }
             ]
         }
-    ],
-    "hostId": { "value": "00000000-0000-0000-0000-000000000000" },
-    "createdDateTime": "2020-01-01T00:00:00.0000000Z",
-    "updatedDateTime": "2020-01-01T00:00:00.0000000Z"
+    ]
 }
